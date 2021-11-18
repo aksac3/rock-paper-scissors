@@ -1,0 +1,99 @@
+body {
+    background-color: black;
+}
+
+header {
+    position: initial;
+    display: flex;
+    justify-self: center;
+    align-items: center; 
+    flex-direction: column;
+    justify-content: center;
+    color: #222;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.score-board {
+    display: grid;
+    width: 100%;
+    height: 0%;
+    margin-top: 0;
+    margin-bottom: 0; 
+    padding: 0;
+    grid-template-columns: 45% 63% 45%;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 70px;
+    max-height: 30px;
+}
+
+section > h2 {
+    color: #e89e10;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+span {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 100px;
+    grid-auto-flow: row;    
+    color: #9f0613;
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 100px;
+}
+
+
+.button-container {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 100px;
+    grid-auto-flow: column; 
+    height: 250px;
+}
+
+.button-container > input {
+    color: #2e4558 !important;
+    background: #fcc433;
+    padding: 20px;
+    margin-top: 50px;
+    border: 4px dotted #2e4558 !important;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+}
+
+.button-container > input:hover {
+    color: #ffffff !important;
+    background: #e89e10;
+    border-color: #5a2727!important;
+    border-radius: 10px;
+    transition: all 0.4s ease 0s; 
+}
+
+.button-container > input:active {
+   background-color: #2e557c;
+   box-shadow: 0 0 0 10px white, 0 0 0 4px #585855;
+   transition-duration: 500ms;
+   transition-property: box-shadow;
+  }
+
+  footer { 
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    color: #9f0613;
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+  }
