@@ -1,5 +1,14 @@
 body {
-    background-color: black;
+    background-image: url("images/stars.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body, html {
+    height: 100%;
+    margin 0; 
 }
 
 header {
@@ -61,7 +70,7 @@ span {
     align-content: center;
     gap: 100px;
     grid-auto-flow: column; 
-    height: 250px;
+    height: 350px;
 }
 
 .button-container > input {
@@ -96,4 +105,4 @@ span {
     color: #9f0613;
     font-size: 18px;
     font-family: 'Roboto Mono', monospace;
-  }
+  }                     
